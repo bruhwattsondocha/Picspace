@@ -131,7 +131,7 @@ body {
     background-position: 0vh;
 }
 .call {
-    background-color: #3882F6;
+    background-color: #ffbe62c9;
     padding: 3% 20%;
     border-radius: 10px;
     display: flex;
@@ -139,7 +139,7 @@ body {
 }
 .text {
     flex: 1 0 600px;
-    color: #F9FAF8;
+    color: #000000;
 }
 .button {
     background-color: #ffffff00;
@@ -147,8 +147,8 @@ body {
     height: 40px;
     flex: 0 0 auto;
     border-radius: 10px;
-    border: 2px solid white;
-    color: #F9FAF8;
+    border: 2px solid rgb(64, 58, 58);
+    color: #000000;
     font-weight: bold;
     align-self: flex-end;
 }
