@@ -54,7 +54,7 @@ body {
     flex: 1;
 }
 .main img {
-    border-radius: 10px;
+    border-radius: 10px;    
 }
 .info {
     display: flex;
@@ -155,7 +155,7 @@ body {
 
 /* FOOTER */
 .footer {
-    background-color: #1F2937;
+    background-color: #000000c1;
     color: #F9FAF8;
     display: flex;
     justify-content: center;
