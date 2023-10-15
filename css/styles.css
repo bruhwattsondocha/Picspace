@@ -87,13 +87,21 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    background-image: url(../img/info-bg.jpg);
+    background-position: 0vh;
 }
 .container h1 {
-    color: #1F2937;
+    color: #ffffff;
+    background-color: #000000da;
+    padding: 5px 20px;
+    border-radius: 50px;
 }
 .illustrations {
     display: flex;
     gap: 60px;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.689);
 }
 .illustrations img {
     width: 170px;
@@ -103,6 +111,7 @@ body {
 .illustrations p {
     width: 170px;
     text-align: center;
+    color: white;
 }
 /* QUOTE */
 .quote-container {
