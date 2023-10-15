@@ -127,6 +127,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10%;
+    background-image: url(../img/background.jpg);
+    background-position: 0vh;
 }
 .call {
     background-color: #3882F6;
