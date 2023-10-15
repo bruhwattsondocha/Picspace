@@ -19,10 +19,14 @@ body {
 }
 /* HEADER */
 .header {
-    background-color: #1F2937;
+    background-color: #000000d3;
     display: flex;
     padding: 1% 15%;
     align-items: baseline;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 .header h1 {
     font-size: 24px;
@@ -48,7 +52,13 @@ body {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 10px;
     padding: 5px 10px;
-    border: 2px solid rgba(255, 255, 255, 0.383);
+    border: 2px solid rgba(255, 255, 255, 0.77);
+    transition: background-color 150ms;
+}
+.search:not(:placeholder-shown),
+.searh:hover,
+.search:focus {
+    background-color: #fff;
 }
 /* MAIN */
 .main {
