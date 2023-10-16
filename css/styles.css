@@ -64,7 +64,7 @@ body {
 .main {
     background-color: #1F2937;
     display: flex;
-    padding: 5% 15% 3%;
+    padding: 8% 15% 5%;
     height: 50%;
     gap: 5%;
 }
