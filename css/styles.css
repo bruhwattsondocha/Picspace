@@ -64,7 +64,7 @@ body {
 .main {
     background-color: #1F2937;
     display: flex;
-    padding: 5% 13%;
+    padding: 5% 15% 3%;
     height: 50%;
     gap: 5%;
 }
@@ -77,9 +77,11 @@ body {
 .info {
     display: flex;
     flex-direction: column;
-    gap: 5%;
+    gap: 10%;
+    justify-content: flex-end;
 }
 .info button {
+    margin-top: 2%;
     align-self: flex-start;
     padding: 10px 30px;
     background-color: #e65e5e;
