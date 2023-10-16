@@ -115,7 +115,7 @@ body {
 .container h1 {
     color: #ffffff;
     background-color: #4d4949da;
-    padding: 5px 20px;
+    padding: 0px 5px 5px 5px;
     border-radius: 15px;
 }
 .illustrations {
